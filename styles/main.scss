@@ -1,0 +1,26 @@
+* {
+   @font-face {
+      font-family: 'Proxima Nova light';
+      src: url('../fonts/proximanova_light.otf');
+   }
+
+   @font-face {
+      font-family: 'Proxima Nova normal';
+      src: url('../fonts/proximanova_regular.ttf');
+   }
+
+   @font-face {
+      font-family: 'Proxima Nova bold';
+      src: url('../fonts/proximanova_bold.otf');
+   }
+}
+
+body {
+   font-family: 'Proxima Nova normal';
+   background: linear-gradient(166deg, rgba(41, 49, 126, 1) 0%, rgba(28, 34, 81, 1) 100%);
+   min-height: 1000px;
+}
+
+.header {
+   border-bottom: 1px solid #FFFFFF1A;
+}
